@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D6BB8F17FC37DA00B93E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D6BB8E17FC37DA00B93E91 /* UIKit.framework */; };
+		82D6BB9117FC37DA00B93E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D6BB9017FC37DA00B93E91 /* Foundation.framework */; };
+		82D6BB9317FC37DA00B93E91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D6BB9217FC37DA00B93E91 /* CoreGraphics.framework */; };
+		82D6BB9917FC37DA00B93E91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82D6BB9717FC37DA00B93E91 /* InfoPlist.strings */; };
+		82D6BB9B17FC37DA00B93E91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D6BB9A17FC37DA00B93E91 /* main.m */; };
+		82D6BB9F17FC37DA00B93E91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D6BB9E17FC37DA00B93E91 /* AppDelegate.m */; };
+		82D6BBA117FC37DA00B93E91 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D6BBA017FC37DA00B93E91 /* Default.png */; };
+		82D6BBA317FC37DA00B93E91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D6BBA217FC37DA00B93E91 /* Default@2x.png */; };
+		82D6BBA517FC37DA00B93E91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D6BBA417FC37DA00B93E91 /* Default-568h@2x.png */; };
+		82D6BBA817FC37DA00B93E91 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D6BBA617FC37DA00B93E91 /* MainStoryboard.storyboard */; };
+		82D6BBAB17FC37DA00B93E91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D6BBAA17FC37DA00B93E91 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82D6BB8B17FC37DA00B93E91 /* Super Defender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Defender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D6BB8E17FC37DA00B93E91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82D6BB9017FC37DA00B93E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82D6BB9217FC37DA00B93E91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82D6BB9617FC37DA00B93E91 /* Super Defender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Super Defender-Info.plist"; sourceTree = "<group>"; };
+		82D6BB9817FC37DA00B93E91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82D6BB9A17FC37DA00B93E91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82D6BB9C17FC37DA00B93E91 /* Super Defender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Super Defender-Prefix.pch"; sourceTree = "<group>"; };
+		82D6BB9D17FC37DA00B93E91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82D6BB9E17FC37DA00B93E91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82D6BBA017FC37DA00B93E91 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82D6BBA217FC37DA00B93E91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		82D6BBA417FC37DA00B93E91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		82D6BBA717FC37DA00B93E91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		82D6BBA917FC37DA00B93E91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82D6BBAA17FC37DA00B93E91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D6BB8817FC37DA00B93E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D6BB8F17FC37DA00B93E91 /* UIKit.framework in Frameworks */,
+				82D6BB9117FC37DA00B93E91 /* Foundation.framework in Frameworks */,
+				82D6BB9317FC37DA00B93E91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D6BB8217FC37D900B93E91 = {
+			isa = PBXGroup;
+			children = (
+				82D6BB9417FC37DA00B93E91 /* Super Defender */,
+				82D6BB8D17FC37DA00B93E91 /* Frameworks */,
+				82D6BB8C17FC37DA00B93E91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D6BB8C17FC37DA00B93E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D6BB8B17FC37DA00B93E91 /* Super Defender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D6BB8D17FC37DA00B93E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82D6BB8E17FC37DA00B93E91 /* UIKit.framework */,
+				82D6BB9017FC37DA00B93E91 /* Foundation.framework */,
+				82D6BB9217FC37DA00B93E91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82D6BB9417FC37DA00B93E91 /* Super Defender */ = {
+			isa = PBXGroup;
+			children = (
+				82D6BB9D17FC37DA00B93E91 /* AppDelegate.h */,
+				82D6BB9E17FC37DA00B93E91 /* AppDelegate.m */,
+				82D6BBA617FC37DA00B93E91 /* MainStoryboard.storyboard */,
+				82D6BBA917FC37DA00B93E91 /* ViewController.h */,
+				82D6BBAA17FC37DA00B93E91 /* ViewController.m */,
+				82D6BB9517FC37DA00B93E91 /* Supporting Files */,
+			);
+			path = "Super Defender";
+			sourceTree = "<group>";
+		};
+		82D6BB9517FC37DA00B93E91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D6BB9617FC37DA00B93E91 /* Super Defender-Info.plist */,
+				82D6BB9717FC37DA00B93E91 /* InfoPlist.strings */,
+				82D6BB9A17FC37DA00B93E91 /* main.m */,
+				82D6BB9C17FC37DA00B93E91 /* Super Defender-Prefix.pch */,
+				82D6BBA017FC37DA00B93E91 /* Default.png */,
+				82D6BBA217FC37DA00B93E91 /* Default@2x.png */,
+				82D6BBA417FC37DA00B93E91 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D6BB8A17FC37DA00B93E91 /* Super Defender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D6BBAE17FC37DA00B93E91 /* Build configuration list for PBXNativeTarget "Super Defender" */;
+			buildPhases = (
+				82D6BB8717FC37DA00B93E91 /* Sources */,
+				82D6BB8817FC37DA00B93E91 /* Frameworks */,
+				82D6BB8917FC37DA00B93E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Super Defender";
+			productName = "Super Defender";
+			productReference = 82D6BB8B17FC37DA00B93E91 /* Super Defender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D6BB8317FC37DA00B93E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = RoFuPaNi;
+			};
+			buildConfigurationList = 82D6BB8617FC37DA00B93E91 /* Build configuration list for PBXProject "Super Defender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82D6BB8217FC37D900B93E91;
+			productRefGroup = 82D6BB8C17FC37DA00B93E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D6BB8A17FC37DA00B93E91 /* Super Defender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D6BB8917FC37DA00B93E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D6BB9917FC37DA00B93E91 /* InfoPlist.strings in Resources */,
+				82D6BBA117FC37DA00B93E91 /* Default.png in Resources */,
+				82D6BBA317FC37DA00B93E91 /* Default@2x.png in Resources */,
+				82D6BBA517FC37DA00B93E91 /* Default-568h@2x.png in Resources */,
+				82D6BBA817FC37DA00B93E91 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D6BB8717FC37DA00B93E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D6BB9B17FC37DA00B93E91 /* main.m in Sources */,
+				82D6BB9F17FC37DA00B93E91 /* AppDelegate.m in Sources */,
+				82D6BBAB17FC37DA00B93E91 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82D6BB9717FC37DA00B93E91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D6BB9817FC37DA00B93E91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82D6BBA617FC37DA00B93E91 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D6BBA717FC37DA00B93E91 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D6BBAC17FC37DA00B93E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82D6BBAD17FC37DA00B93E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D6BBAF17FC37DA00B93E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Super Defender/Super Defender-Prefix.pch";
+				INFOPLIST_FILE = "Super Defender/Super Defender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82D6BBB017FC37DA00B93E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Super Defender/Super Defender-Prefix.pch";
+				INFOPLIST_FILE = "Super Defender/Super Defender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D6BB8617FC37DA00B93E91 /* Build configuration list for PBXProject "Super Defender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D6BBAC17FC37DA00B93E91 /* Debug */,
+				82D6BBAD17FC37DA00B93E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D6BBAE17FC37DA00B93E91 /* Build configuration list for PBXNativeTarget "Super Defender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D6BBAF17FC37DA00B93E91 /* Debug */,
+				82D6BBB017FC37DA00B93E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D6BB8317FC37DA00B93E91 /* Project object */;
+}
