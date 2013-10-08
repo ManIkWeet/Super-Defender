@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822660DD18041C8C00EC2F9F /* template.png in Resources */ = {isa = PBXBuildFile; fileRef = 822660DC18041C8C00EC2F9F /* template.png */; };
 		82D6BB8F17FC37DA00B93E91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D6BB8E17FC37DA00B93E91 /* UIKit.framework */; };
 		82D6BB9117FC37DA00B93E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D6BB9017FC37DA00B93E91 /* Foundation.framework */; };
 		82D6BB9317FC37DA00B93E91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D6BB9217FC37DA00B93E91 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		822660DC18041C8C00EC2F9F /* template.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = template.png; sourceTree = "<group>"; };
 		82D6BB8B17FC37DA00B93E91 /* Super Defender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Super Defender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D6BB8E17FC37DA00B93E91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		82D6BB9017FC37DA00B93E91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				82D6BB9617FC37DA00B93E91 /* Super Defender-Info.plist */,
+				822660DC18041C8C00EC2F9F /* template.png */,
 				82D6BB9717FC37DA00B93E91 /* InfoPlist.strings */,
 				82D6BB9A17FC37DA00B93E91 /* main.m */,
 				82D6BB9C17FC37DA00B93E91 /* Super Defender-Prefix.pch */,
@@ -163,6 +166,7 @@
 				82D6BBA317FC37DA00B93E91 /* Default@2x.png in Resources */,
 				82D6BBA517FC37DA00B93E91 /* Default-568h@2x.png in Resources */,
 				82D6BBA817FC37DA00B93E91 /* MainStoryboard.storyboard in Resources */,
+				822660DD18041C8C00EC2F9F /* template.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				82D6BBB017FC37DA00B93E91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

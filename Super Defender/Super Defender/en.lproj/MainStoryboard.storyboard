@@ -9,11 +9,20 @@
             <objects>
                 <viewController wantsFullScreenLayout="YES" id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="template.png" translatesAutoresizingMaskIntoConstraints="NO" id="QUH-kK-0u4"/>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QUH-kK-0u4" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="Bud-Lo-a6b"/>
+                            <constraint firstItem="QUH-kK-0u4" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="TjA-fu-QYA"/>
+                            <constraint firstItem="QUH-kK-0u4" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="ovc-Qn-hOP"/>
+                            <constraint firstItem="QUH-kK-0u4" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="uDg-Kx-da5"/>
+                        </constraints>
                     </view>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
@@ -23,7 +32,13 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="template.png" width="640" height="960"/>
+    </resources>
     <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
         </class>
